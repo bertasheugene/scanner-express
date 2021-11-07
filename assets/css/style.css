@@ -1,0 +1,114 @@
+body{
+    font-family: 'SF Pro Display', sans-serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+:root {
+    --color-gray:rgba(43, 42, 69, 0.4);
+    --color-blue-light: #E7F0FE;
+    --color-blue-dark: #2B2A45;
+    --color-white: #fff;
+    --color-link: #4F5387;
+    --animation-fast: all 0.15s ease;
+    --animation-slow: all 0.3s ease;
+
+}
+
+.title{
+    color: var(--color-blue-dark);
+    font-style: normal;
+    font-weight: bold;
+}
+.description{
+    color: var(--color-gray);
+}
+.link{
+    color: var(--color-link);
+    transition: var(--animation-fast);
+}
+.link:hover{
+    color: var(--color-blue-dark);
+}
+.button{
+    border: 1px solid var(--color-link);
+    background: var(--color-link);
+    color: var(--color-white);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.main__wrapper{
+    display: flex;
+}
+
+.main__left,
+.main__right{
+    width: 50%;
+}
+
+.main__container{
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.content__logo{
+    padding: 25px 0px;
+}
+.form{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.main__right{
+    background: url('../img/main-bg.png') no-repeat center / cover;
+}
+.form__wrapper{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.form__fields{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__title{
+    font-weight: 800;
+    font-size: 40px;
+    margin:0px 0px 10px 0px;
+} 
+.form__description{
+    margin: 0px 0px 40px 0px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.form__supplement{
+    color: var(--color-gray);
+    margin:0;
+    font-weight: 600;
+    font-size: 20px;
+}
+.form__fields{
+    margin-bottom: 30px;
+}
+.form__field{
+    border: 1px solid rgba(43, 42, 69, 0.1);
+    border-radius: 12px;
+    padding: 15px 25px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    
+}
+.form__button{
+    padding: 12px;
+}
