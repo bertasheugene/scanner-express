@@ -1,0 +1,35 @@
+.icon{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.icon-eye{
+    background-image: url(../img/icons/eye-off.svg);
+    width: 18px;
+    height: 18px;
+}
+
+.icon-attention{
+    background-image: url(../img/icons/attention.svg);
+    width: 15px;
+    height: 15px;
+}
+
+.icon-absence{
+    background-image: url(../img/icons/absence.svg);
+    width: 20px;
+    height: 20px;
+}
+.icon-presence{
+    background-image: url(../img/icons/presence.svg);
+    width: 20px;
+    height: 20px;
+}
+
+.icon-arrow-left{
+    background-image: url(../img/icons/arrow-left.svg);
+    width: 18px;
+    height: 13px;
+}

@@ -1,0 +1,184 @@
+@media (max-width: 1440px){
+    .tariffs__table,
+    .tariffs__list,
+    .tariffs__button{
+        width: 48%;
+    }
+    .container{
+        width: 90%;
+    }
+    /* 
+     */
+}
+
+@media (max-width: 1280px){
+    .main__container{
+        width: 80%;
+    }
+    
+    .form__subtitle{
+        font-size: 18px;
+    }
+    .tariff__radio{
+        margin-right: 20px;
+    }
+    .tariff__price{
+        font-size: 38px;
+    }
+    .tariffs__features{
+        padding: 10px 20px;
+    }
+    .features th,
+    .features td{
+        padding: 25px 5px;
+    }
+    .tariffs__item{
+        padding: 20px 20px;
+    }
+    .tariff__tag{
+        font-size: 12px;
+    }
+}
+@media (max-width: 960px){
+    .title{
+        font-size: 30px;
+    }
+    .features th, .features td{
+        padding: 15px 5px;
+    }
+    .plans__wrapper{
+        padding: 40px 0px 60px 0px;
+    }
+    .plans__subtitle{
+        font-size: 18px;
+        line-height: initial;
+        margin-bottom: 30px;
+    }
+    .tariffs__main{
+        flex-direction: column;
+        padding-bottom: 40px;
+        margin-bottom: 30px;
+    }
+    .tariffs__table, .tariffs__list, .tariffs__button{
+        width: 100%;
+    }
+    .tariffs__table{
+        margin-bottom: 25px;
+    }
+    .tariffs__bottom{
+        flex-direction: column;
+    }
+    .tariffs__checkbox {
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 768px){
+    .main__wrapper{
+        flex-direction: column;
+    }
+    .main__left, .main__right{
+        width: 100%;
+    }
+    .main__right{
+        min-height: 250px;
+    }
+    .form{
+        height: auto;
+    }
+    .main__container{
+        height: auto;
+    }
+    .content__logo{
+        padding: 15px 0px;
+        margin-bottom: 40px;
+    }
+    .title{
+        font-size: 24px;
+    }
+    .form__subtitle{
+        font-size: 16px;
+    }
+    .form__error{
+        font-size: 12px;
+    }
+    .button{
+        font-weight: 600;
+    }
+}
+@media (max-width: 480px){
+    .form__supplement{
+        font-size: 14px;
+    }
+    .form__fields{
+        margin-bottom: 15px;
+    }
+    .form__field{
+        padding: 15px 35px 15px 15px;
+    }
+    .logo img{
+        height: 40px;
+    }
+    .main__container{
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .link{
+        white-space: nowrap;
+    }
+    .form__supplement{
+        text-align: center;
+    }
+    .plans__subtitle{
+        font-size: 16px;
+    }
+    .container{
+        padding: 0px 20px;
+        width: 100%;
+    }
+    .tariffs__features{
+        padding: 10px;
+    }
+    .features__title{
+        font-size: 20px;
+    }
+    .features__button{
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+    .features td{
+        padding: 10px 5px;
+    }
+    .tariff__name{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .tariffs__item{
+        padding: 16px;
+        margin-bottom: 8px;
+    }
+    .tariff__tag{
+        font-size: 10px;
+        padding: 6px 12px;
+        margin-right: 4px;
+    }
+    .tariff__radio{
+        margin-right: 15px;
+    }
+    .tariff__price{
+        font-size: 22px;
+    }
+    .tariffs__main{
+        margin-bottom: 20px;
+        padding-bottom: 0px;
+        border-bottom: none;
+    }
+    .checkbox__label{
+        font-size: 16px;
+    }
+    .plans__wrapper{
+        padding: 30px 0px 50px 0px;
+    }
+}
