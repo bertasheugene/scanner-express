@@ -7,6 +7,9 @@
     .container{
         width: 90%;
     }
+    .tariffs__button_web{
+        width: 100%;
+    }
     /* 
      */
 }
@@ -115,9 +118,6 @@
     .form__fields{
         margin-bottom: 15px;
     }
-    .form__field{
-        padding: 15px 35px 15px 15px;
-    }
     .logo img{
         height: 40px;
     }
@@ -183,5 +183,39 @@
     }
     .plans__subtitle{
         margin-bottom: 20px;
+    }
+    .payment__wrapper{
+        max-width: initial;
+        width: 100%;
+        padding: 60px 25px;
+    }
+    .payment-logo__img{
+        margin-bottom: 7px;
+    }
+    .payment-logo__tariff{
+        font-size: 16px;
+    }
+    .payment__logo{
+        margin-bottom: 30px;
+    }
+    .payment__title{
+        margin-bottom: 60px;
+    }
+    .payment__decription div{
+        padding: 0 20px;
+        font-size: 16px;
+    }
+    .payment__decription{
+        margin-bottom: 30px;
+    }
+    .bill__title{
+        font-size: 22px;
+    }
+    .plans__wrapper_web{
+        width: auto;
+    }
+    .triangle {
+        position: absolute;
+        bottom: 100px;
     }
 }

@@ -4,18 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://js.stripe.com/v3/"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/icon.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <title>Pay</title>
 </head>
 <body>
-    <form id="payment-form">
-        <div id="payment-element">
-          <!-- Elements will create form elements here -->
+    <main class="main">
+      <section class="payment">
+        <div class="payment__wrapper">
+
+          <div class="payment__logo payment-logo">
+            <img class="payment-logo__img" src="assets/img/payment-logo.png" alt="">
+            <div class="payment-logo__tariff">Premium</div>
+          </div>
+
+          <div class="payment__title">Discover new possibilities for you with Scanner Express Premium</div>
+
+          <div class="payment__decription">
+            <img src="assets/img/payment-descr.png" alt="">
+            <div>Recognize text, sign documents and highlight important information.</div>
+          </div>
+
+          <div class="payment__bill bill">
+
+            <div class="bill__title">Summary</div>
+
+            <div class="bill__item">
+              <div class="bill__subtitle">Total today</div>
+              <div class="bill__count">Free 3 Days</div>
+            </div>
+
+            <div class="bill__item">
+              <div class="bill__subtitle">Price after trial</div>
+              <div class="bill__count bill__count_orange">$888 /  month</div>
+            </div>
+
+            <div class="bill__item">
+              <div class="bill__subtitle">Discount</div>
+              <div class="bill__count"> <span class="bill__count_cross">$24.05</span> $12</div>
+            </div>
+
+          </div>
+
+          <button class="payment__button button">Next</button>
+
         </div>
-        <button id="submit">Submit</button>
-        <div id="error-message">
-          <!-- Display error message to your customers here -->
-        </div>
-      </form>
+      </section>
+    </main>
 </body>
 </html>

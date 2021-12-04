@@ -55,6 +55,7 @@ a:hover{
 .display-no{
     display: none;
 }
+
 .title{
     color: var(--color-blue-dark);
     font-style: normal;
@@ -457,6 +458,10 @@ a:hover{
     -webkit-text-fill-color: transparent;
     color: #7D82E5;
 }
+.brief{
+    display: flex;
+    justify-content: center;
+}
 
 .tariffs__brief{
     padding: 20px 15px 15px 18px;
@@ -503,4 +508,106 @@ a:hover{
 .triangle_right{
     transform: rotateY(180deg);
     right: 0;
+}
+
+
+.tariffs__web{
+    justify-content: center;
+}
+.tariffs__web_wrapper{
+    position: relative;
+}
+.tariffs__web .tariffs__table{
+    width: 100%;
+}
+.flex-center{
+    justify-content: center;
+}
+
+/* Payment */
+.payment__wrapper{
+    padding: 100px 0px;
+    max-width: 380px;
+    margin: 0 auto;
+    text-align: center;
+}
+.payment-logo__img{
+    width: 54px;
+    margin-bottom: 13px;
+}
+.payment-logo__tariff{
+    font-weight: 800;
+    background: linear-gradient(90deg, #7A82E8 42%, #FC754A 57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #7A82E8;
+    font-size: 20px;
+}
+.payment__logo{
+    margin-bottom: 50px;
+}
+.payment__title{
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    margin-bottom: 25px;
+}
+.payment__decription{
+    position: relative;
+    margin-bottom: 50px;
+}
+.payment__decription img {
+    width: 100%;
+
+}
+.payment__decription div{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    padding: 0 40px;
+}
+.bill__title{
+    text-align: left;
+    font-weight: bold;
+    font-size: 24px;    
+    padding: 15px 0px;
+    border-bottom: 1px solid #EAEAEC;
+}
+.bill__item{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid #EAEAEC;
+}
+.bill__count{
+    color: var(--color-link);
+}
+.bill__count_orange{
+    color: #FC754A;
+}
+.bill__count_cross{
+    text-decoration: line-through;
+}
+.payment__bill {
+    margin-bottom: 50px;
+}
+.payment__button{
+    width: 100%;
+    padding: 12px 0px;
+}
+.plans__wrapper_web{
+    width: 500px;
+    margin: 0 auto;
+}
+.tariffs__button_web{
+    width: 100%;
+}
+.triangle {
+    position: absolute;
+    bottom: 170px;
 }
